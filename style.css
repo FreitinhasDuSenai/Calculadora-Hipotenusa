@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(176, 126, 180);
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    font-family: 'Merriweather', serif;
+}
+
+#result {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.math {
+    padding-left: 2.6em;
+    padding-right: 2.6em; 
+}
+
+.number-input {
+    margin: 10px;
+}
+

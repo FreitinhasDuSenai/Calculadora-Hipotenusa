@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teorema de Pitágora</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script async defer src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Teorema de Pitágoras - Freitas Cachorrão</h1>
+
+    <blockquote>
+        <p><i>"A soma dos quadrados dos catetos é igual ao quadrado da hipotenusa."</i></p>
+    </blockquote>
+
+    <div class="math"> \[ a^2 + b^2 = c^2 \]</div>
+
+    <div class="flex-center">
+        <input type="number" min="1" id="cat-a" class="number-input">
+        <input type="number" min="1" id="cat-b" class="number-input">
+        <input type="number" min="1" id="hip-c" class="number-input">
+    </div>
+
+    <div id=result></div>
+
+    <div class="flex-center">
+        <div class="math">\[ a = \sqrt{c^2 - b^2} \]</div>
+        <div class="math">\[ b = \sqrt{c^2 - a^2} \]</div>
+        <div class="math">\[ c = \sqrt{a^2 + b^2} \]</div>
+    </div>
+    <footer> Emilio Freitas - 2B° - Sesi Senai </footer>
+
+
+
+</body>
+</html>
